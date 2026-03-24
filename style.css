@@ -1,0 +1,177 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(64deg, #FDB4B5, #C9F5E1);
+    width: 100vw;
+    background-attachment: fixed;
+    padding-bottom: 9vw;
+}
+
+@font-face  {
+    font-family: 'comfortaa';
+    src: url('./font/Comfortaa-Regular.ttf');
+}
+
+@font-face  {
+    font-family: 'louis';
+    src: url('./font/Louis George Cafe.ttf');
+}
+
+@font-face  {
+    font-family: 'SFTS';
+    src: url('./font/SFTSchriftedRoundTRIAL-Regular.ttf');
+}
+
+@font-face  {
+    font-family: 'Quick';
+    src: url('./font/Quicksand_Book.otf');
+}
+
+
+
+
+
+
+
+#título-principalUm {
+    font-size: 8vw;
+    font-family: 'SFTS';
+    font-weight: 600;
+    margin: 2vw 0 0 3vw;
+    color: #43434D;
+}
+
+#título-principalDois {
+    font-size: 6vw;
+    margin-left: 5vw;
+    font-family: 'SFTS';
+    color: #43434D;
+}
+
+
+
+
+#box-head {
+    display: flex;
+    margin-top: 20vw;
+    height: 80vw;
+    /*border: 1px solid green;*/
+}
+
+#secao-titulo {
+    width: 65vw;
+    /*border: 1px solid red;*/
+}
+
+#secao-titulo h1 {
+    font-family: 'SFTS';
+    font-size: 9vw;
+    margin: 10vw 0 0 5vw;
+    color: #501D37;
+}
+
+#secao-titulo h2 {
+    font-family: 'Quick';
+    font-size: 4.5vw;
+    margin: 3vw 0 0 5vw;
+    color: #183A47;
+}
+
+#secao-imagem-ilustrativa {
+    width: 35vw;
+    
+    /*border: 1px solid yellow;*/
+    background-image: url('./img/banner.png');
+    background-size: 40vw;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+
+
+
+.box-botao {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 15vw;
+}
+
+.botao {
+    width: 80vw;
+    height: 8vh;
+    border-radius: 10vw;
+    background: linear-gradient(to right, #F17465, #7E4059);
+    color: white;
+}
+
+.botao legend:nth-child(1) {
+    text-align: center;
+    font-size: 6vw;
+    font-family: 'comfortaa';
+    font-weight: 600;
+    margin-top: 1.5vw;
+}
+
+.botao legend:nth-child(2) {
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 0.5vw;
+}
+
+
+
+
+
+
+#sobre {
+    display: grid;
+    justify-content: center;
+    margin-top: 25vw;
+}
+
+#sobre h2 {
+    color: #501D37;
+    text-align: center;
+    font-family: 'SFTS';
+}
+
+.divs {
+    width: 60vw;
+    height: 60vw;
+    padding: 0 2vw 0 2vw;
+    box-shadow: 3px 3px 20px gray;
+    border-radius: 5px;
+    margin-top: 15vw;
+}
+
+.divs label {
+    text-align: center;
+    display: block;
+    font-size: 6vw;
+    font-family: 'Quick';
+    margin-top: 4vw;
+    font-weight: 700;
+}
+
+.divs legend {
+    text-align: center;
+    margin-top: 12vw;
+    font-size: 5.5vw;
+    font-family: 'comfortaa';
+    color: #183A47;
+}
+
+
+
+
+
+#linkPagina {
+    line-height: 7vh;
+}
